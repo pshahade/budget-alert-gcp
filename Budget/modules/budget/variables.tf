@@ -74,7 +74,7 @@ variable "custom_period_end_date" {
 variable "alert_spent_percents" {
   description = "A list of percentages of the budget to alert on when threshold is exceeded"
   type        = list(number)
-  default     = [0.5, 0.7, 1.0]
+  default     = [0.5, 0.7, 0.8, 0.9, 1.0]
 }
 
 variable "alert_spend_basis" {
